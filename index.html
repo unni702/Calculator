@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+  <div class="main-body">
+    <div class="calc">
+      <div id="Screen">
+        <input type="text" class="inp" id="screen">
+      </div>
+      <div class="row">
+        <button class="btn clr-ac" onclick="screenClear()">AC</button>
+         <button class="btn clr-del" onclick="delBtn()">Del</button>
+          <button class="btn clr" onclick="clickBtn(3.14)">π</button>
+           <button class="btn clr" onclick="clickBtn('/')">/</button>
+      </div>
+      <div class="row">
+        <button class="btn" onclick="clickBtn(7)">7</button>
+         <button class="btn" onclick="clickBtn(8)">8</button>
+          <button class="btn" onclick="clickBtn(9)">9</button>
+           <button class="btn clr" onclick="clickBtn('*')">x</button>
+      </div>
+      <div class="row">
+        <button class="btn" onclick="clickBtn(4)">4</button>
+         <button class="btn" onclick="clickBtn(5)">5</button>
+          <button class="btn" onclick="clickBtn(6)">6</button>
+           <button class="btn clr" onclick="clickBtn('/')">/</button>
+      </div>
+      <div class="row">
+        <button class="btn" onclick="clickBtn(1)">1</button>
+         <button class="btn" onclick="clickBtn(2)">2</button>
+          <button class="btn" onclick="clickBtn(3)">3</button>
+           <button class="btn clr" onclick="clickBtn('+')">+</button>
+      </div>
+      <div class="row">
+        <button class="btn" onclick="clickBtn(0)">0</button>
+         <button class="btn" onclick="clickBtn('.')">.</button>
+          <button class="btn" onclick="clickBtn(00)">00</button>
+           <button class="btn1" onclick="equalBtn()">=</button>
+      </div>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
